@@ -1,0 +1,26 @@
+# Leak checker, running on the published repository itself.
+#
+# This is defence in depth: the checker already ran on the machine that generated
+# the tree, before any file was written. This one exists in case someone edits a
+# file by hand, and so that the redaction rules are public and auditable rather
+# than a promise.
+#
+# It runs the structural and textual layers. The prompt-shingle layer is absent:
+# it would need the clinical prompt to sit in this repository, which is exactly
+# what must not happen.
+name: gate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  leak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # No `pip install`: the checker depends only on the standard library, by design.
+      - run: python tools/leak_gate.py --out .
