@@ -6,13 +6,6 @@ the [VERA-MH](https://github.com/SpringCare/VERA-MH) benchmark measured in it: t
 score, the complete transcripts, the judge's verdict on each dimension, and the path
 it took through the rubric to reach each verdict.
 
-> **A score is not a seal.** Being evaluated with VERA-MH, or publishing a VERA-MH
-> score, does not constitute or imply certification, endorsement, validation, or a
-> determination of safety, effectiveness or clinical appropriateness — by anyone.
-> Scores are indicative, vary with how the run is configured, and must not be the
-> sole basis for clinical, procurement or risk decisions. Full text in
-> [NOTICE.md](NOTICE.md).
-
 ## Latest result — 2026-08-13-vera-mh-full-100
 
 **VERA 88.1** over 200 transcripts — 100 personas × 2 user agents.
@@ -55,4 +48,13 @@ which describes what leaves, why, and the automated checker that keeps residue o
 ## Credits
 
 Benchmark: VERA-MH v1.2 — Copyright (c) 2026 Spring Care, Inc. See
+[NOTICE.md](NOTICE.md).
+
+---
+
+**A score is not a seal.** Being evaluated with VERA-MH, or publishing a VERA-MH
+score, does not constitute or imply certification, endorsement, validation, or a
+determination of safety, effectiveness or clinical appropriateness — by anyone.
+Scores are indicative, vary with how the run is configured, and must not be the
+sole basis for clinical, procurement or risk decisions. Full text in
 [NOTICE.md](NOTICE.md).
