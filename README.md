@@ -1,6 +1,6 @@
 # nami-vera-mh
 
-[Nami](https://nami.chat) is a support chatbot grounded in Dialectical Behavior
+[Nami](https://nami.ia.br) is a support chatbot grounded in Dialectical Behavior
 Therapy, running in Portuguese on WhatsApp. This repository publishes, in full, what
 the [VERA-MH](https://github.com/SpringCare/VERA-MH) benchmark measured in it: the
 score, the complete transcripts, the judge's verdict on each dimension, and the path
